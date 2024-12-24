@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 13px 20px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Inter", serif;
+  padding: 20px 4rem;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  height: 60px;
+}

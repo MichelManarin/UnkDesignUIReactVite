@@ -1,0 +1,86 @@
+.form-container {
+  border-radius: 10px;
+}
+
+.styled-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #101828;
+}
+
+label {
+  align-self: flex-start;
+  min-width: 0px;
+  order: 1;
+  min-height: 0px;
+  height: max-content;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: calc(100% + 0px);
+  margin: 0px;
+  z-index: 16;
+  overflow: visible;
+  justify-content: flex-start;
+  gap: 4px;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+.optional {
+  color: #555555;
+  align-self: flex-start;
+  min-height: 0px;
+  width: max-content;
+  flex-grow: 0;
+  height: max-content;
+  margin: 0px;
+  z-index: 14;
+  white-space: pre-wrap;
+  overflow: visible;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: 0px;
+  opacity: 1;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 4px;
+  transition: border-color 0.3s ease;
+}
+input {
+  background-color: #fff;
+  box-shadow: rgba(16, 24, 40, 0.05) 0px 1px 2px 0px;
+  align-self: flex-start;
+  min-width: 0px;
+  order: 3;
+  min-height: 44px;
+  max-height: 44px;
+  height: 44px;
+  flex-grow: 1;
+  width: calc(100% + 0px);
+  margin: 0px;
+  z-index: 12;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dbe6e7;
+  border-radius: 8px;
+  font-family: var(--font_default);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color_bTHQh_default);
+  padding: 8px 12px;
+  opacity: 1;
+}
