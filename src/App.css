@@ -13,7 +13,7 @@ body {
 }
 
 #root {
-  display: flex; 
+  display: flex;
   height: 100%;
   width: 100%;
 }
@@ -288,8 +288,8 @@ input {
 
 @media (min-width: 1280px) {
   .content-container {
-      margin: 20px 4rem;
-      margin-top: 5rem;
+    margin: 20px 4rem;
+    margin-top: 5rem;
   }
 }
 
@@ -522,7 +522,7 @@ sidebar-item {
   position: sticky;
   top: 0;
   padding: 10px;
-  margin-left: 12px;
+  margin-left: 19px;
 }
 
 .side-wrapper {

@@ -11,14 +11,14 @@
   height: 100vh;
 }
 
-.is-active svg {
-  color: #000000;
-}
-
 .sidebar-link:hover,
 .sidebar-link.is-active {
-  font-weight: 600;
-    color: #000000;
+  font-weight: 400;
+    color: #444ce7;
+}
+
+.is-active svg {
+  color: #444ce7!important;
 }
 
 .side-menu {
@@ -27,6 +27,13 @@
 
 .sidebar-link:hover {
   background-color: #eee;
+}
+
+.is-active {
+  background-color: #444ce721;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  color: #444ce7;
 }
 
 .sidebar-link h4 {
@@ -58,6 +65,8 @@
   text-decoration: none;
   color: #333;
   padding-left: 15px;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
 }
 
 .side-menu svg {
