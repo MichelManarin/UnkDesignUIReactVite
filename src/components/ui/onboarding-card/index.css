@@ -18,3 +18,21 @@
     cursor: pointer;
     color: #000;
 }
+
+.onboarding-step .icon {
+  width: 18px;
+}
+
+@media (min-width: 1600px) {
+  .onboarding-step .icon {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 900px) {
+  .onboarding-step .icon {
+    width: 28px;
+    height: 28px;
+  }
+}

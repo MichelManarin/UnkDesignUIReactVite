@@ -448,7 +448,7 @@ input {
   z-index: 4;
   margin-bottom: 1rem;
   color: #555;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .alert-container {
@@ -4074,5 +4074,3 @@ html {
     align-self: stretch !important;
   }
 }
-
-/*# sourceMappingURL=bootstrap-grid.css.map */
