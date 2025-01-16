@@ -4,10 +4,22 @@ import "./index.css";
 const Layout: React.FC = () => {
   return <aside className="sidebar">
     <div className="sidebar-header">
-      <a className="logo-expand" href="#">unknown</a>
+      <a className="logo-expand" href="#">fidelizza.net</a>
     </div>
     <div className="side-wrapper">
       <div className="side-menu">
+        <div className="sidebar-user-info">
+          <div className="user-avatar">
+            <img
+              src="https://lh3.googleusercontent.com/a-/ALV-UjUbGER0Zv1ZkpgjIk2uvwvBthrshpmApIXYK7EG5npemaw4Bb4" // Substitua pelo link do avatar real do usuário
+              alt="User Avatar"
+            />
+          </div>
+          <div className="user-details">
+            <h4>Michel Manarin</h4>
+            <p className="user-plan">Loja Matriz</p>
+          </div>
+        </div>
         <div className="itens-menu">
           <a className="sidebar-link discover is-active" href="#">
             <svg strokeWidth={0.5} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
