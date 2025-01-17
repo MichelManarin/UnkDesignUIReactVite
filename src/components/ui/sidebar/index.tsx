@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import avatar from "../../../assets/avatar.jpg";
 
 const Layout: React.FC = () => {
   return <aside className="sidebar">
@@ -11,7 +12,7 @@ const Layout: React.FC = () => {
         <div className="sidebar-user-info">
           <div className="user-avatar">
             <img
-              src="https://lh3.googleusercontent.com/a-/ALV-UjUbGER0Zv1ZkpgjIk2uvwvBthrshpmApIXYK7EG5npemaw4Bb4" // Substitua pelo link do avatar real do usuário
+              src={avatar}
               alt="User Avatar"
             />
           </div>
