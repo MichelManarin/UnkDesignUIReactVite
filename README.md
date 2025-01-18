@@ -1,3 +1,9 @@
+# New Layout
+
+Removing the borders that separate sections and unifying the design, eliminating box shadows, and focusing solely on the most important elements: onboarding, sidebar, navbar, and main, all with a consistent color scheme.
+![Image](https://github.com/user-attachments/assets/0a57f116-35c1-43ea-bd0d-23ff7955f50a)
+
+# Old layout
 ![desi](https://github.com/user-attachments/assets/081407c2-2134-401b-a12a-755ee735001a)
 ![home 2](https://github.com/user-attachments/assets/c8a4bc55-2725-4c01-b48a-30596a87dfd8)
 
