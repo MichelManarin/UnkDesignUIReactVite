@@ -56,7 +56,7 @@ table {
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 thead {
@@ -126,7 +126,7 @@ tr:last-child td {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   overflow: hidden;
   margin: px 0;
 
@@ -283,12 +283,12 @@ input {
 .content-container {
   border-radius: 8px;
   margin: 20px 1rem;
-  margin-top: 75px;
+  margin-top: 4.6rem;
 }
 
 @media (min-width: 1280px) {
   .content-container {
-    margin: 20px 4rem;
+    margin: 20px 1rem;
     margin-top: 5rem;
   }
 }
@@ -331,7 +331,7 @@ input {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #ecf0f1;
+  background-color: #f7f7f7;
   overflow-y: auto;
 }
 
