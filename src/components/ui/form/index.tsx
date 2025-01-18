@@ -20,7 +20,7 @@ const Form: React.FC = () => {
           <input autoComplete="off" type="password" id="password" placeholder="Digite sua senha" required={false}>
           </input>
         </div>
-        <button className="preview-button">
+        <button className="button">
           Redefenir
         </button>
       </form>

@@ -25,7 +25,7 @@ const Table: React.FC = () => {
         </td>
         <td className="ready">❌</td>
         <td>
-          <button className="preview-button" aria-label="Visualizar detalhes">
+          <button className="button" aria-label="Visualizar detalhes">
             <span className="icon">▶</span> Visualizar
           </button>
         </td>
@@ -42,7 +42,7 @@ const Table: React.FC = () => {
         </td>
         <td className="ready">❌</td>
         <td>
-          <button className="preview-button" aria-label="Visualizar detalhes">
+          <button className="button" aria-label="Visualizar detalhes">
             <span className="icon">▶</span> Visualizar
           </button>
         </td>
@@ -59,7 +59,7 @@ const Table: React.FC = () => {
         </td>
         <td className="ready">❌</td>
         <td>
-          <button className="preview-button" aria-label="Visualizar detalhes">
+          <button className="button" aria-label="Visualizar detalhes">
             <span className="icon">▶</span> Visualizar
           </button>
         </td>

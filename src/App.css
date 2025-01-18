@@ -19,7 +19,7 @@ body {
 }
 
 
-.preview-button {
+.button {
   font-family: "Inter", serif;
   display: flex;
   align-items: center;
@@ -36,11 +36,11 @@ body {
   transition: background-color 0.2s, box-shadow 0.2s;
 }
 
-.preview-button:hover {
+.button:hover {
   background-color: #f0f0f0;
 }
 
-.preview-button:active {
+.button:active {
   background-color: #e6e6e6;
 }
 
@@ -433,6 +433,10 @@ input {
   border: 0px;
 }
 
+.onboarding-button:hover {
+  background-color: #3139c4;
+}
+
 .section-title {
   font-size: 18px;
   font-weight: 600;
@@ -604,7 +608,7 @@ a {
   border-radius: 10px;
 }
 
-.form-container .preview-button {
+.form-container .button {
   max-width: 100px;
 }
 
