@@ -26,12 +26,12 @@ const App = () => {
           <Card>
             <Table />
           </Card>
-          <SectionTitle />
+          {/* <SectionTitle />
           <Submenu></Submenu>
           <br></br>
           <Card>
             <Form />
-          </Card>
+          </Card> */}
         </ContentContainer>
       </Main>
     </>
